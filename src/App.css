@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container{
+  padding: 20px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+  justify-items: center;
+  background-color:#2f2fa2;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+button, input[type="submit"] {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #f64c72;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #5c5ce0;
+  margin: 5px;
+  width: 120px;
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+}
